@@ -1,0 +1,124 @@
+{{#index}}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+		{{{header}}}
+  </head>
+
+  <body>
+		{{{nav}}}
+  
+    <div class="container theme-showcase" role="main">
+      <div class="jumbotron">
+        <h1 class="display-3">Christopher Diggins</h1>
+		    <span id="slogan">Forgetting the semicolon</span> since 1974</p>
+				<p>
+					This is the personal web-site and blog for Christopher Diggins,
+					a software developer and programming language designer 
+					living in Montreal, Canada.
+				</p>
+				<p>
+					The blog covers various topics related to the craft of software 
+					development and in particular my adventures designing and implementing open-source
+					libraries and programming languages. 
+				</p>
+    </div>
+    
+		{{{footer}}}
+		{{{analytics}}}
+		{{{bootstrapfooter}}}
+  </body>
+  <script>
+		/*
+		out of the box thinking
+		not playing well with others 
+		excited about computer programming 
+		successfully reinventing things 
+		horribly misunderstood 
+		filled with angst 
+		trying to be better 
+		taking things to the extreme
+		struggling with work-life balance
+		raised by wolves
+		simplifying hard problems		
+		*/
+		let slogans = `a troubled mind
+		raging against the machine
+		being unreasonable
+		paddling upstream
+		difficulty interfacing with normals
+		trying to adapt his surroundings to himself
+		programming computers 
+		being confused by people
+		screaming in his head
+		imagining data structures		
+		half-heartedly trying to fit in
+		pretending he gets it
+		doing things the hard-way 
+		playing with legos 
+		trying to grok technology
+		lacking focus
+		looking for patterns 
+		rehashing old material
+		making grammatical mistakes
+		procrastinating
+		trying to figure it out
+		getting high on coffee
+		making one-off mistakes in his code
+		debugging floating point errors
+		designing odd programming languages 
+		plugging into the matrix
+		trying to decide which pill to take
+		unstable
+		acting 12
+		not being funny
+		running with scissors
+		geeking out
+		acting inappropriately
+		avoiding adulthood
+		talking with his mouth full
+		setting a bad example
+		not reading between the lines
+		being impulsive
+		worrying his parents
+		paddling upstream
+		coloring outside the lines
+		poking it with a stick
+		causing trouble
+		not doing what he is told
+		avoiding normalcy
+		seeking a dopamine rush
+		challenging authority
+		doing things the hard way
+		forgetting to take his meds	
+		either manic or depressed
+		acting inappropriately
+		lacking filters
+		going with his gut
+		shooting from the hip
+		keeping it real
+		barely holding it together
+		faking it
+		stacking things
+		being too literal
+		asking why
+		iconoclasting
+		obsessing over details
+		keeping the demons out
+		shaking a stick at you
+		chasing squirrels
+		seeking clarity
+		forgetting the semicolon
+		more than a little mercurial
+		undiagnosed asperger's syndrome
+		unintentionally pretentious
+		saying what is on his mind
+		not sticking to the script
+		wearing his heart on his sleeve
+		obsessing and compulsing`.split(/\r?\n/);
+
+	 let slogan = slogans[Math.floor(Math.random()*slogans.length)];	
+	 document.getElementById('slogan').innerHTML=slogan;
+  </script>
+</html>
+{{/index}}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+ <title>Another Software Development Blog by Christopher Diggins</title>
+ <description>Thoughts and anecdotes on software development and programming language design.</description>
+ <link>{{siteUrl}}</link>
+ <lastBuildDate>{{built}}</lastBuildDate>
+ <pubDate>Sun, 23 July 2017 11:50 EST</pubDate>
+ <webMaster>cdiggins@gmail.com</webMaster>
+ <managingEditor>cdiggins@gmail.com</managingEditor>
+ <copyright>Copyright 2017, Christopher Diggins, CC BY-SA 4.0</copyright>
+ <generator>Myna Blog Generator</generator>
+ <language>en-us</language>
+ 
+ {{#articles}}
+ <item>
+  <title>{{title}}</title>
+  <description>{{description}}</description>
+  <category>{{category}}</category>
+  <link>http://cdiggins.github.io/blog/{{pageUrl}}</link>
+  <source>http://cdiggins.github.io/rss.xml</source>
+  <pubDate>{{rssDate}}</pubDate>
+ </item>
+ {{/articles}}
+
+</channel>
+</rss>

@@ -1,0 +1,21 @@
+{
+  "name": "cdiggins.github.io",
+  "version": "1.0.0",
+  "description": "A software development blog by Christopher Diggins and a static blog generator created using Myna",
+  "scripts": {
+    "build": "node src/make_blog.js"
+  },
+  "homepage": "https://cdiggins.github.io",
+  "license": "MIT",
+  "author": {
+    "name": "Christopher Diggins",
+    "email": "cdiggins@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://cdiggins.github.io"
+  },
+  "dependencies": {
+    "myna-parser": "~2.2.0"
+  }
+}

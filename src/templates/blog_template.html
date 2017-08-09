@@ -1,0 +1,30 @@
+{{#blog}}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{{header}}}
+  </head>
+
+  <body>
+    {{{nav}}}
+
+    <div class="container theme-showcase" role="main">
+        <div class="theme-showcase col-sm-8" id='content'>
+          <h1>Blog Posts</h1>
+            <ul>
+            {{#articles}}
+              <li>
+                  <a href="{{{pageUrl}}}">{{title}}</a> - {{dateString}}
+                  <p>{{{description}}}</p>
+              </li>
+            {{/articles}}
+            </ul>
+        </div>
+
+        {{{sidebar}}}
+    </div>
+    
+		{{{footer}}}
+  </body>
+</html>
+{{/blog}}
