@@ -153,9 +153,6 @@ function main()
     console.log("Generating index page");
     createPage(data.indexTemplateFile, data, 'index.html');
 
-    console.log("Generating about page");
-    createPage(data.aboutTemplateFile, data, 'about.html');
-
     console.log("Generating blog landing page");
     createPage(data.blogTemplateFile, data, 'blog.html');
 

@@ -1,46 +1,21 @@
 {
     "posts": [{
-        "title":"First post!",
-        "src":"first.md",
-        "date":"2017-07-10T07:00",
-        "category":"about",
-        "description":"This first post of my new blog on software developer"
+        "title":"About",
+        "src":"about.md",
+        "date":"2017-08-09T07:00",
+        "description":"About the Exaltation blog generator."
     },
     {
-        "title":"The Myna parsing library for JavaScript",
-        "src":"myna-parsing-library.md",
-        "date":"2017-07-11T07:00",
-        "category":"parsing",
-        "description":"About the Myna recursive descent parsing library for JavaScript"
-    },
-    {
-        "title":"A Static Blog Generator in Myna",
-        "src":"myna-blog-maker.md",
-        "date":"2017-07-11T10:00",
-        "category":"parsing",
-        "description":"A static blog web-site generator created using Myna."
-    },
-    {
-        "title":"For Loops are Functional Too",
-        "src":"for-loops-are-functional.md",
-        "date":"2017-07-23T23:30",
-        "category":"functional programming",
-        "description":"Demonstrating the correspondance between imperative constructs and pure functional programming using Python."
-    },
-    {
-        "title":"Markdown Parsers in JavaScript",
-        "src":"markdown-parsers.md",
-        "date":"2017-07-26T23:30",
-        "category":"parsing",
-        "description":"A list of JavaScript markdown parsers",
-        "draft":true
-    },
-    {
-        "title":"Acknowledgements",
-        "src":"acknowledgements.md",
-        "date":"2017-08-03T20:00",
-        "category":"web development",
+        "title":"Credits",
+        "src":"credits.md",
+        "date":"2017-08-10T20:00",
         "description":"Some of the technology used to make this site a reality."
+    },
+    {
+        "title":"Resources",
+        "src":"resources.md",
+        "date":"2017-08-10T20:00",
+        "description":"Resources."
     }
     ]
 }

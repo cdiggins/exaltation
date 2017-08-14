@@ -16,6 +16,6 @@
     "url": "https://cdiggins.github.io"
   },
   "dependencies": {
-    "myna-parser": "~2.2.0"
+    "myna-parser": ">=2.2.7"
   }
 }

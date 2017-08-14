@@ -15,7 +15,8 @@ module.exports =
   articlesJsonFile      : './src/articles.json',
 
   // Main options
-  author :            'Someone.Somewhere',
+  author :            'Christopher Diggins',
+  brand :             'Exaltation',
   year :              '2017',
   source :            'https://github.com/cdiggins/exaltation', 
   license :           'Attribution-ShareAlike 4.0 International',
@@ -23,7 +24,7 @@ module.exports =
   baseUrl :           '.',
   siteUrl :           'https://cdiggins.github.io/exaltation',
   pageUrl :           'https://cdiggins.github.io/exaltation',
-  email :             'someone@example.com',
+  email :             'cdiggins@gmail.com',
   generator :         'Exaltation',
   googleAnalyticsId : '', 
     
@@ -38,7 +39,7 @@ module.exports =
 
   social : 
   [
-    { title: "email", icon: "fa-envelope", url: 'mailto:someone@example.com' },
+    { title: "email", icon: "fa-envelope", url: 'mailto:{{email}}' },
     { title: "Twitter", icon: "fa-twitter", url: 'https://twitter.com/cdiggins' },
     { title: "LinkedIn", icon: "fa-linkedin", url: 'https://www.linkedin.com/in/cdiggins/' },
     { title: "FaceBook", icon: "fa-facebook", url: 'https://www.facebook.com/diggins.software' },
@@ -50,14 +51,14 @@ module.exports =
   
   about : 
   { 
-    title :       'About My Blog', 
+    title :       'About Exaltation', 
     description : 'About the Exaltation Sample Blog', 
     pageUrl:      '{{siteurl}}/about.html' 
   },    
 
   index : 
   { 
-    title       : 'My Blog',      
+    title       : 'Exaltation',      
     description : 'I am a GitHub user and this is my blog.',
     pageUrl:      '{{siteurl}}' 
   },
@@ -76,7 +77,7 @@ module.exports =
   
   <!-- 
     "The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags"
-    Or at least so decreed Bootsrap. I'm not sure why. 
+    Or at least so decrees Bootstrap. I'm not sure why. 
   -->
 
   <!-- Standard meta tags -->
@@ -121,13 +122,14 @@ module.exports =
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#" title="top">Christopher Diggins</a>
+        <a class="navbar-brand" href="#" title="top">{{brand}}</a>
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
           <li><a href="{{{baseUrl}}}/index.html" title="home">Home</a></li>
-          <li><a href="{{{baseUrl}}}/blog.html" title="blog">Blog</a></li>
-          <li><a href="{{{baseUrl}}}/about.html" title="about">About</a></li>
+          <li><a href="{{{baseUrl}}}/blog.html" title="blog">Recent</a></li>
+          <li><a href="{{{baseUrl}}}/blog/credits.html" title="blog">Credits</a></li>
+          <li><a href="{{{baseUrl}}}/blog/about.html" title="about">About</a></li>
           {{#urlPrev}}
             <li><a href="{{{urlPrev}}}">Previous</a></li>
           {{/urlPrev}}
@@ -143,8 +145,8 @@ module.exports =
   sidebar : `
   <div class="col-sm-4 sidebar-module sidebar-module-inset">
       <p>
-        I am a Github user and this is my blog. It was generated using the Exaltation blog maker 
-        by Christopher Diggins. 
+        This blog was generated using the <a href="http://cdiggins.github.io/exaltaion">Exaltation</a> blog maker 
+        by <a href="http://cdiggins.github.io">Christopher Diggins</a>. 
       </p>
     <h3>Recent Posts</h3>
        <ul>
@@ -188,6 +190,7 @@ module.exports =
     <p class="copyright text-muted small">
       Copyright &copy; {{{year}}} {{{author}}}
       <br/><a href="{{{licenseUrl}}}">{{{license}}}</a>
+      <br/>Built with <b><a href="https://cdiggins.github.io/exaltation">Exaltation</a></b>
     </p>
   </div>
 
@@ -209,6 +212,6 @@ module.exports =
   ga('create', '{{googleAnalyticsId}}', 'auto');
   ga('send', 'pageview');
   </script>
-  {{\googleAnalyticsId}}`, 
+W  {{/googleAnalyticsId}}`, 
   
 };

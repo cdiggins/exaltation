@@ -3,8 +3,8 @@
 <channel>
  <title>Another Software Development Blog by Christopher Diggins</title>
  <description>Thoughts and anecdotes on software development and programming language design.</description>
- <link>https://cdiggins.github.io</link>
- <lastBuildDate>Sat, 5 Aug 2017 10:05:48 GMT-0400 (Eastern Daylight Time)</lastBuildDate>
+ <link>https://cdiggins.github.io/exaltation</link>
+ <lastBuildDate>Mon, 14 Aug 2017 10:21:20 GMT-0400 (Eastern Daylight Time)</lastBuildDate>
  <pubDate>Sun, 23 July 2017 11:50 EST</pubDate>
  <webMaster>cdiggins@gmail.com</webMaster>
  <managingEditor>cdiggins@gmail.com</managingEditor>
@@ -14,48 +14,30 @@
  
  
  <item>
-  <title>Acknowledgements</title>
+  <title>Credits</title>
   <description>Some of the technology used to make this site a reality.</description>
-  <category>web development</category>
-  <link>http://cdiggins.github.io/blog/https://cdiggins.github.io/blog/acknowledgements.html</link>
+  <category></category>
+  <link>http://cdiggins.github.io/blog/https://cdiggins.github.io/exaltation/blog/credits.html</link>
   <source>http://cdiggins.github.io/rss.xml</source>
-  <pubDate>Thu, 3 Aug 2017 16:00:00 GMT-0400 (Eastern Daylight Time)</pubDate>
+  <pubDate>Thu, 10 Aug 2017 16:00:00 GMT-0400 (Eastern Daylight Time)</pubDate>
  </item>
  
  <item>
-  <title>For Loops are Functional Too</title>
-  <description>Demonstrating the correspondance between imperative constructs and pure functional programming using Python.</description>
-  <category>functional programming</category>
-  <link>http://cdiggins.github.io/blog/https://cdiggins.github.io/blog/for-loops-are-functional.html</link>
+  <title>Resources</title>
+  <description>Resources.</description>
+  <category></category>
+  <link>http://cdiggins.github.io/blog/https://cdiggins.github.io/exaltation/blog/resources.html</link>
   <source>http://cdiggins.github.io/rss.xml</source>
-  <pubDate>Sun, 23 Jul 2017 19:30:00 GMT-0400 (Eastern Daylight Time)</pubDate>
+  <pubDate>Thu, 10 Aug 2017 16:00:00 GMT-0400 (Eastern Daylight Time)</pubDate>
  </item>
  
  <item>
-  <title>A Static Blog Generator in Myna</title>
-  <description>A static blog web-site generator created using Myna.</description>
-  <category>parsing</category>
-  <link>http://cdiggins.github.io/blog/https://cdiggins.github.io/blog/myna-blog-maker.html</link>
+  <title>About</title>
+  <description>About the Exaltation blog generator.</description>
+  <category></category>
+  <link>http://cdiggins.github.io/blog/https://cdiggins.github.io/exaltation/blog/about.html</link>
   <source>http://cdiggins.github.io/rss.xml</source>
-  <pubDate>Tue, 11 Jul 2017 06:00:00 GMT-0400 (Eastern Daylight Time)</pubDate>
- </item>
- 
- <item>
-  <title>The Myna parsing library for JavaScript</title>
-  <description>About the Myna recursive descent parsing library for JavaScript</description>
-  <category>parsing</category>
-  <link>http://cdiggins.github.io/blog/https://cdiggins.github.io/blog/myna-parsing-library.html</link>
-  <source>http://cdiggins.github.io/rss.xml</source>
-  <pubDate>Tue, 11 Jul 2017 03:00:00 GMT-0400 (Eastern Daylight Time)</pubDate>
- </item>
- 
- <item>
-  <title>First post!</title>
-  <description>This first post of my new blog on software developer</description>
-  <category>about</category>
-  <link>http://cdiggins.github.io/blog/https://cdiggins.github.io/blog/first.html</link>
-  <source>http://cdiggins.github.io/rss.xml</source>
-  <pubDate>Mon, 10 Jul 2017 03:00:00 GMT-0400 (Eastern Daylight Time)</pubDate>
+  <pubDate>Wed, 9 Aug 2017 03:00:00 GMT-0400 (Eastern Daylight Time)</pubDate>
  </item>
  
 
