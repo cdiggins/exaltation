@@ -4,7 +4,7 @@
  <title>Another Software Development Blog by Christopher Diggins</title>
  <description>Thoughts and anecdotes on software development and programming language design.</description>
  <link>https://cdiggins.github.io/exaltation</link>
- <lastBuildDate>Mon, 14 Aug 2017 10:21:20 GMT-0400 (Eastern Daylight Time)</lastBuildDate>
+ <lastBuildDate>Mon, 14 Aug 2017 14:51:04 GMT-0400 (Eastern Daylight Time)</lastBuildDate>
  <pubDate>Sun, 23 July 2017 11:50 EST</pubDate>
  <webMaster>cdiggins@gmail.com</webMaster>
  <managingEditor>cdiggins@gmail.com</managingEditor>
@@ -14,19 +14,19 @@
  
  
  <item>
+  <title>Help Resources</title>
+  <description>Helpful resource for learning how to run and customize Exaltation.</description>
+  <category></category>
+  <link>http://cdiggins.github.io/blog/https://cdiggins.github.io/exaltation/blog/resources.html</link>
+  <source>http://cdiggins.github.io/rss.xml</source>
+  <pubDate>Fri, 11 Aug 2017 16:00:00 GMT-0400 (Eastern Daylight Time)</pubDate>
+ </item>
+ 
+ <item>
   <title>Credits</title>
   <description>Some of the technology used to make this site a reality.</description>
   <category></category>
   <link>http://cdiggins.github.io/blog/https://cdiggins.github.io/exaltation/blog/credits.html</link>
-  <source>http://cdiggins.github.io/rss.xml</source>
-  <pubDate>Thu, 10 Aug 2017 16:00:00 GMT-0400 (Eastern Daylight Time)</pubDate>
- </item>
- 
- <item>
-  <title>Resources</title>
-  <description>Resources.</description>
-  <category></category>
-  <link>http://cdiggins.github.io/blog/https://cdiggins.github.io/exaltation/blog/resources.html</link>
   <source>http://cdiggins.github.io/rss.xml</source>
   <pubDate>Thu, 10 Aug 2017 16:00:00 GMT-0400 (Eastern Daylight Time)</pubDate>
  </item>

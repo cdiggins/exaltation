@@ -12,10 +12,17 @@
         "description":"Some of the technology used to make this site a reality."
     },
     {
-        "title":"Resources",
+        "title":"Help Resources",
         "src":"resources.md",
-        "date":"2017-08-10T20:00",
-        "description":"Resources."
+        "date":"2017-08-11T20:00",
+        "description":"Helpful resource for learning how to run and customize Exaltation."
+    },
+    {
+        "title":"Draft Example",
+        "src":"draft.md",
+        "date":"2017-08-12T20:00",
+        "description":"As I put pen to hand ... arggghhhh!",
+        "draft": true
     }
     ]
 }

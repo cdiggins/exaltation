@@ -53,20 +53,20 @@ module.exports =
   { 
     title :       'About Exaltation', 
     description : 'About the Exaltation Sample Blog', 
-    pageUrl:      '{{siteurl}}/about.html' 
+    pageUrl:      '{{siteUrl}}/about.html' 
   },    
 
   index : 
   { 
     title       : 'Exaltation',      
     description : 'I am a GitHub user and this is my blog.',
-    pageUrl:      '{{siteurl}}' 
+    pageUrl:      '{{siteUrl}}' 
   },
 
   blog : { 
     title :       'Another Software Development Blog by Christopher Diggins', 
     description : 'A blog on topics related to software development and 3D graphics with an emphasis on programming languages and open-source development.',
-    pageUrl:      '{{siteurl}}/blog.html' 
+    pageUrl:      '{{siteUrl}}/blog.html' 
   },
 
   // This the contents of the HTML head tag
@@ -96,8 +96,9 @@ module.exports =
   <title>{{title}}</title>
 
   <!-- Bootstrap http://getbootstrap.com/getting-started/ -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous" />
+  <link rel="stylesheet" href="{{baseUrl}}/css/theme.css" />
 
   <!-- Font Awesome http://fontawesome.io/ --> 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -203,6 +204,7 @@ module.exports =
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
   {{#googleAnalyticsId}}
+  <script async="" src="https://www.google-analytics.com/analytics.js"></script>
   <!-- Google analytics -->
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

@@ -153,7 +153,7 @@ function main()
     console.log("Generating index page");
     createPage(data.indexTemplateFile, data, 'index.html');
 
-    console.log("Generating blog landing page");
+    console.log("Generating blog article listing page");
     createPage(data.blogTemplateFile, data, 'blog.html');
 
     console.log("Generating RSS feed");

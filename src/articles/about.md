@@ -1,34 +1,28 @@
 # About
 
-[Exaltation](http://cdiggins.github.io/exaltation) is extremely simple, fast, and powerful. It is designed for Github users with at least some rudimentary programming knowledge, but who don't want to go through the effort of having to learn a bunch of web technologies and frameworks just to have a blog that doesn't suck. 
-
-## Motivation
-
->>>  Damn it Jim, I'm a software developer not a graphic designer!
-
-If you are like me, you might think, I'm a half-descent programmer, creating a personal web-site and blog should take me no more than an hour or two. Oh god, how wrong I was. 
-
-To be honest, writing a blog generator is the easy part. The hard part was figuring out how to structure the HTML and what CSS frameworks to use to make a site look half-decent. 
+[Exaltation](http://cdiggins.github.io/exaltation) is a static blog generation framework for GitHub users. It is designed for people with some some rudimentary programming knowledge, but who don't want to go through the effort of having to learn a bunch of web technologies and frameworks.
 
 ## Main features
 
 * Article authoring in Markdown 
 * Simple article management with support for drafts 
-* Designed specifically for blogs 
-* Static HTML page generation
-* Fast generation of web-pages
-* Fast serving of pages
-* Versioning history (through Git)
+* Fast static HTML page generation for faster web page serving
 * Google analytics support
 * RSS feed generation 
 * Blog post authoring in markdown
-* Highly configurable from one file
+* Highly configurable from one JavaScript configuration file
 * No complex system of plug-ins or templates 
-* Enhanced Mustache templating system
-* Responsive web-site generation via Bootstrap
+* Enhanced version of Mustache as the  templating system
+* Responsive web-sites that present well on Mobile and Desktop via Bootstrap
 
-If you are feeling adventurous it is very easy to customize [Exaltation](http://cdiggins.github.io/exaltation). The main build process is contained in less than 200 lines of well-documented JavaScript.
+## Customization 
 
-## Alternatives 
+There are three main ways to customize the web-site generated via Exaltation:
 
-There are a large number of [static site generators](https://www.staticgen.com/) that are available for you to play with on Github. 
+1. data.js - The configuration file is in JavaScript instead of JSON so you can leverage the full strength of the language.
+2. templates - These files control the main layout of the index page, and the article posts in conjunction with the configuration file 
+3. build.js - For those a bit more bold, you can always customize the main build script as it is just 200 lines of documented JavaScript.
+
+## why another Static Site Generator? 
+
+There are already a large number of [static site generators](https://www.staticgen.com/) that are available for you to play with on Github. Exaltation was designed to address a very specific set of needs: Github users wanting a fast and easy to use blog. I hope you find Exaltation satisfies your needs as well. If you have any suggestions, I'd love to hear from you! 

@@ -12,6 +12,7 @@ Content management is more effectively done offline, so that you can validate it
 
 For basic usage of the Exaltation blog generator, a basic knowledge of the following technology is required:
 
+* [Node.JS](https://nodejs.org/)
 * [Markdown](https://daringfireball.net/projects/markdown/syntax)
 * [JSON](http://www.json.org/)
 
@@ -24,20 +25,21 @@ For more advanced customization, basic knowlege of the following would be requir
 
 ### Alternative Blog Generators 
 
-Here are some alternatives to Exaltation. Go check them out. They usually have more features but I have found them all to be far more complicated than they need to be from the point of view of a programmer wanting to write a blog about the open-source project they are maintaining. 
+There are many alternatives to Exaltation. Go check them out. They usually have more features but I have found most to be more complicated than I needed to blog about the open-source project I am working on. 
 
 * [Hugo](https://www.gohugo.io)
 * [Jekyll](https://jekyllrb.com)
 * [Hexo](https://www.hexo.io)
 * [more ...](https://www.staticgen.com/)
 
-### Styling Frameworks
+### Frameworks and Libraries 
 
 Exaltation leverages the following awesome frameworks to generate responsive web-sites with at least a tiny bit of flair. 
 
 * [Bootstrap](https://getbootstrap.com)
 * [Font awesome](http://fontawesome.io/)
 * [Google fonts](https://fonts.google.com)
+* [jQuery](https://jquery.com/)
 
 ### Themes
 

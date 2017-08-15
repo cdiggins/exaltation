@@ -19,7 +19,7 @@
   
   <!-- Open Graph meta-properties, used by FaceBook and other social sites --> 
   <meta property="og:type"          content="website" />
-  <meta property="og:url"           content="" />
+  <meta property="og:url"           content="https://cdiggins.github.io/exaltation" />
   <meta property="og:title"         content="Exaltation" />
   <meta property="og:description"   content="I am a GitHub user and this is my blog." />
   <meta property="og:image"         content="" />
@@ -28,8 +28,9 @@
   <title>Exaltation</title>
 
   <!-- Bootstrap http://getbootstrap.com/getting-started/ -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./css/theme.css" />
 
   <!-- Font Awesome http://fontawesome.io/ --> 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -71,28 +72,29 @@
   </nav>
   
     <div class="container theme-showcase" role="main">
-      <div class="jumbotron">
-        <h1 class="display-3">Exaltation</h1>
-		    <span id="slogan">An easy to use, fast, and powerful static blog generator for Github users</p>
-				<p>
-					<h3>Getting Started</h3>
-					<ol>
-						<li>Create a Github pages repository.</li>
-						<li>Download and unzip the Exaltation repository into your local Github pages repo.</li>
-						<li>Edit your local version of the src\data.js file with your site and personal information.</li>
-					</ol>
+		<div class="jumbotron">
+			<h1 class="display-3">Exaltation</h1>
+			<p>An easy to use static blog generator for Github users</p>
+			<p>
+				<h3>Getting Started</h3>
+				<ol>
+					<li>Enable <a href="https://pages.github.com">Github pages</a> for your repository.</li>
+					<li><a href="https://github.com/cdiggins/exaltation/archive/master.zip">Download and unzip</a> the Exaltation repository.</li>
+					<li>Edit your local version of <code>src\data.js</code> with your site information.</li>
+				</ol>
 
-					<h3>Authoring Blog Posts</h3>
-					<ol>
-						<li>Create a new markdown file in the src\articles\ folder with your blog article</li>
-						<li>Add a new entry to src\articles.json file with the title, date, file name, and description of your blog article.</li>
-						<li>Run <code>node src\build.js</code></li>
-						<li>Commit and push your changes to your repository.</li>
-					</ol>
-				</p>
+				<h3>Authoring Blog Posts</h3>
+				<ol>
+					<li>Create a new markdown file in the <code>src\articles\</code> folder with your blog article</li>
+					<li>Add a new entry to <code>src\articles.json</code> file with the title, date, file name, and description of your blog article.</li>
+					<li>Run <code>node src\build.js</code></li>
+					<li>Commit and push your changes to your repository.</li>
+				</ol>
+			</p>
+		</div>
     </div>
     
-		    
+	    
 <hr>
 <footer style='text-align:center'>
   <div class="container">
@@ -167,7 +169,5 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
   
-		
-		
   </body>
 </html>
