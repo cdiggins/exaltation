@@ -48,24 +48,17 @@ module.exports =
     { title: "YouTube", icon: "fa-youtube", url: "https://www.youtube.com/user/cdiggins" },
     { title: "RSS", icon: "fa-rss", url: '{{siteUrl}}/rss.xml' },
   ],
-  
-  about : 
-  { 
-    title :       'About Exaltation', 
-    description : 'About the Exaltation Sample Blog', 
-    pageUrl:      '{{siteUrl}}/about.html' 
-  },    
 
   index : 
   { 
-    title       : 'Exaltation',      
-    description : 'I am a GitHub user and this is my blog.',
+    title       : 'The Exaltation Blog Generator',      
+    description : 'Exaltation is an open-source static blog generator designed for Github ysers.',
     pageUrl:      '{{siteUrl}}' 
   },
 
   blog : { 
-    title :       'Another Software Development Blog by Christopher Diggins', 
-    description : 'A blog on topics related to software development and 3D graphics with an emphasis on programming languages and open-source development.',
+    title :       'The Exaltation Blog', 
+    description : 'A list of articles on the exaltation blog.',
     pageUrl:      '{{siteUrl}}/blog.html' 
   },
 
@@ -214,6 +207,6 @@ module.exports =
   ga('create', '{{googleAnalyticsId}}', 'auto');
   ga('send', 'pageview');
   </script>
-W  {{/googleAnalyticsId}}`, 
+  {{/googleAnalyticsId}}`, 
   
 };

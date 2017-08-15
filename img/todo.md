@@ -1,3 +1,0 @@
-# Convert to Markdown
-
-<a title="By Alan D. Wilson, www.naturespicsonline.com [CC BY-SA 2.5 (http://creativecommons.org/licenses/by-sa/2.5)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3AMeadowlark_-_natures_pics.jpg"><img width="512" alt="Meadowlark - natures pics" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Meadowlark_-_natures_pics.jpg/512px-Meadowlark_-_natures_pics.jpg"/></a>
