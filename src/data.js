@@ -9,7 +9,6 @@ module.exports =
   articleTemplateFile   : './src/templates/article_template.html',
   blogTemplateFile      : './src/templates/blog_template.html',
   indexTemplateFile     : './src/templates/index_template.html',
-  aboutTemplateFile     : './src/templates/about_template.html',
   rssTemplateFile       : './src/templates/rss_template.xml',
   markdownFolder        : './src/articles/',
   articlesJsonFile      : './src/articles.json',
@@ -26,8 +25,10 @@ module.exports =
   pageUrl :           'https://cdiggins.github.io/exaltation',
   email :             'cdiggins@gmail.com',
   generator :         'Exaltation',
-  googleAnalyticsId : '', 
-    
+
+  // If you don't change this, I will be tracking your Google traffic, not you.
+  googleAnalyticsId : 'UA-93495883-1', 
+
   // Page sharing links
   twitterShareUrl :  "https://twitter.com/intent/tweet?url={{pageUrl}}",
   googleShareUrl :   "https://plus.google.com/share?url={{pageUrl}}",
@@ -54,14 +55,14 @@ module.exports =
   index : 
   { 
     title       : 'The Exaltation Blog Generator',      
-    description : 'Exaltation is an open-source static blog generator designed for Github ysers.',
+    description : 'An open-source static blog generator designed especially for Github users.',
     pageUrl:      '{{siteUrl}}' 
   },
 
   // Custom settings for the blog entry page. 
   blog : { 
     title :       'The Exaltation Blog', 
-    description : 'A list of articles on the exaltation blog.',
+    description : 'A list of articles on the Exaltation blog.',
     pageUrl:      '{{siteUrl}}/blog.html' 
   },
   
