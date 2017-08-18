@@ -4,7 +4,7 @@
  <title>Another Software Development Blog by Christopher Diggins</title>
  <description>Thoughts and anecdotes on software development and programming language design.</description>
  <link>https://cdiggins.github.io/exaltation</link>
- <lastBuildDate>Mon, 14 Aug 2017 14:51:04 GMT-0400 (Eastern Daylight Time)</lastBuildDate>
+ <lastBuildDate>Fri, 18 Aug 2017 11:55:38 GMT-0400 (Eastern Daylight Time)</lastBuildDate>
  <pubDate>Sun, 23 July 2017 11:50 EST</pubDate>
  <webMaster>cdiggins@gmail.com</webMaster>
  <managingEditor>cdiggins@gmail.com</managingEditor>
@@ -14,21 +14,39 @@
  
  
  <item>
-  <title>Help Resources</title>
-  <description>Helpful resource for learning how to run and customize Exaltation.</description>
+  <title>Exaltation FAQ</title>
+  <description>Frquently Asked Questions about the Exaltation static blog generator.</description>
+  <category></category>
+  <link>http://cdiggins.github.io/blog/https://cdiggins.github.io/exaltation/blog/faq.html</link>
+  <source>http://cdiggins.github.io/rss.xml</source>
+  <pubDate>Sun, 13 Aug 2017 16:00:00 GMT-0400 (Eastern Daylight Time)</pubDate>
+ </item>
+ 
+ <item>
+  <title>Blog Creation Resources</title>
+  <description>Helpful resource for learning how to customize Exaltation and create web sites in general.</description>
   <category></category>
   <link>http://cdiggins.github.io/blog/https://cdiggins.github.io/exaltation/blog/resources.html</link>
+  <source>http://cdiggins.github.io/rss.xml</source>
+  <pubDate>Sat, 12 Aug 2017 16:00:00 GMT-0400 (Eastern Daylight Time)</pubDate>
+ </item>
+ 
+ <item>
+  <title>Exaltation Credits</title>
+  <description>Some of the technology used to make Exaltation.</description>
+  <category></category>
+  <link>http://cdiggins.github.io/blog/https://cdiggins.github.io/exaltation/blog/credits.html</link>
   <source>http://cdiggins.github.io/rss.xml</source>
   <pubDate>Fri, 11 Aug 2017 16:00:00 GMT-0400 (Eastern Daylight Time)</pubDate>
  </item>
  
  <item>
-  <title>Credits</title>
-  <description>Some of the technology used to make this site a reality.</description>
+  <title>Help</title>
+  <description>Documentation for using the Exaltation blog generator.</description>
   <category></category>
-  <link>http://cdiggins.github.io/blog/https://cdiggins.github.io/exaltation/blog/credits.html</link>
+  <link>http://cdiggins.github.io/blog/https://cdiggins.github.io/exaltation/blog/documentation.html</link>
   <source>http://cdiggins.github.io/rss.xml</source>
-  <pubDate>Thu, 10 Aug 2017 16:00:00 GMT-0400 (Eastern Daylight Time)</pubDate>
+  <pubDate>Thu, 10 Aug 2017 03:00:00 GMT-0400 (Eastern Daylight Time)</pubDate>
  </item>
  
  <item>

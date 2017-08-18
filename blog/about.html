@@ -7,8 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   
   <!-- 
-    "The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags"
-    Or at least so decrees Bootstrap. I'm not sure why. 
+    Bootstrap says: "The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags"
   -->
 
   <!-- Standard meta tags -->
@@ -35,12 +34,26 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 
   <!-- Google Fonts https://fonts.google.com/ --> 
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora|Lato">
 
-  <!-- My custom styling, non-trivial styling should be done in its own CSS file --> 
+  <!-- Custom styling, non-trivial styling should be done in its own CSS file --> 
   <style>
-    body { font-family: 'Source Sans Pro', sans-serif; }
-    h1, h2, h3, h4, h5, h6 { font-family: 'Roboto', sans-serif; } 
+       body { 
+      font-family: 'Lato', sans-serif;
+    }
+    h1, h2, h3, h4, h5, h6 { 
+      font-family: 'Lora', serif;
+    } 
+    .jumbotron {
+      padding-top: 1em;
+      padding-bottom: 1em;
+      margin-bottom: auto;
+      box-shadow: -5px 9px 10px cadetblue;
+    }
+    .jumbotron > h1 {
+        text-shadow: -2px 1px 3px cadetblue;
+    }
+   
   </style>
   </head>
 
@@ -59,12 +72,12 @@
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-          <li><a href="../index.html" title="home">Home</a></li>
-          <li><a href="../blog.html" title="blog">Recent</a></li>
-          <li><a href="../blog/credits.html" title="blog">Credits</a></li>
-          <li><a href="../blog/about.html" title="about">About</a></li>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../blog.html">Articles</a></li>
+          <li><a href="../blog/documentation.html">Help</a></li>
+          <li><a href="../blog/about.html">About</a></li>
           
-                      <li><a href="credits.html">Next</a></li>
+                      <li><a href="documentation.html">Next</a></li>
           
         </ul>
       </div>
@@ -78,36 +91,44 @@
     
         <div class="theme-showcase col-sm-8" id='content'>
           <p>
-            <h1>About</h1>
+            <h1>About the Exaltation Static Blog Generator</h1>
 
-<p><a href = "http://cdiggins.github.io/exaltation">Exaltation</a> is a static blog generation framework for GitHub users. It is designed for people with some some rudimentary programming knowledge, but who don't want to go through the effort of having to learn a bunch of web technologies and frameworks.</p>
+<p><a href = "http://cdiggins.github.io/exaltation">Exaltation</a> is a static blog generation framework for GitHub users written by <a href = "http://cdiggins.github.io/">Christopher Diggins</a>. </p>
 
-<h2>Main features</h2>
+<p>It is designed for people with some some rudimentary programming knowledge, but who don't want to go through the effort of having to learn a bunch of web technologies and frameworks. </p>
 
-<ul><li>Article authoring in Markdown </li>
-<li>Simple article management with support for drafts </li>
+<h2>Main Features</h2>
+
+<ul><li>Blog post authoring in markdown</li>
+<li>Simple article management with support for drafts</li>
 <li>Fast static HTML page generation for faster web page serving</li>
 <li>Google analytics support</li>
 <li>RSS feed generation </li>
-<li>Blog post authoring in markdown</li>
 <li>Highly configurable from one JavaScript configuration file</li>
-<li>No complex system of plug-ins or templates </li>
-<li>Enhanced version of Mustache as the  templating system</li>
+<li>No complex system of plug-ins or templates, just edit the source</li>
+<li>Recursive Mustache style template expansion </li>
 <li>Responsive web-sites that present well on Mobile and Desktop via Bootstrap</li>
 </ul>
 
-<h2>Customization </h2>
+<h2>Technology Used</h2>
 
-<p>There are three main ways to customize the web-site generated via Exaltation:</p>
+<p>See <a href = "credits.html">the Exaltation credits page</a> for a list of different technologies, tools, and services used to make Exaltation.</p>
 
-<ol><li>data.js - The configuration file is in JavaScript instead of JSON so you can leverage the full strength of the language.</li>
-<li>templates - These files control the main layout of the index page, and the article posts in conjunction with the configuration file </li>
-<li>build.js - For those a bit more bold, you can always customize the main build script as it is just 200 lines of documented JavaScript.</li>
-</ol>
+<h2>Documentation</h2>
 
-<h2>why another Static Site Generator? </h2>
+<p>See <a href = "documentation.html">the Exaltation help page</a> for documentation.</p>
 
-<p>There are already a large number of <a href = "https://www.staticgen.com/">static site generators</a> that are available for you to play with on Github. Exaltation was designed to address a very specific set of needs: Github users wanting a fast and easy to use blog. I hope you find Exaltation satisfies your needs as well. If you have any suggestions, I'd love to hear from you! </p>
+<h2>FAQ</h2>
+
+<p>See the <a href = "faq.html">Frequently Asked Questions page</a> for additional information. </p>
+
+<h2>Submitting Bugs </h2>
+
+<p>If you find any bugs please <a href = "https://github.com/cdiggins/exaltation/issues">submit them using the GitHub issue tracker</a>. I will accept reasonable pull requests that don't add significant complexity to the tool or code. </p>
+
+<h2>Improvements and Feature Request</h2>
+
+<p>If you want to suggest an improvement or request a feature please <a href = "https://github.com/cdiggins/exaltation/issues">submit them using the GitHub issue tracker</a>.</p>
 
           </p>
         </div>
@@ -120,8 +141,10 @@
       </p>
     <h3>Recent Posts</h3>
        <ul>
-   <li><a href="">Help Resources</a></li>
-   <li><a href="">Credits</a></li>
+   <li><a href="">Exaltation FAQ</a></li>
+   <li><a href="">Blog Creation Resources</a></li>
+   <li><a href="">Exaltation Credits</a></li>
+   <li><a href="">Help</a></li>
    <li><a href="">About</a></li>
 
       </ul>
@@ -202,7 +225,7 @@
     <p class="copyright text-muted small">
       Copyright &copy; 2017 Christopher Diggins
       <br/><a href="https://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</a>
-      <br/>Built with <b><a href="https://cdiggins.github.io/exaltation">Exaltation</a></b>
+      <br/>Built with <a href="https://cdiggins.github.io/exaltation">Exaltation</a>
     </p>
   </div>
 

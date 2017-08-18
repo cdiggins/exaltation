@@ -6,21 +6,33 @@
         "description":"About the Exaltation blog generator."
     },
     {
-        "title":"Credits",
-        "src":"credits.md",
-        "date":"2017-08-10T20:00",
-        "description":"Some of the technology used to make this site a reality."
+        "title":"Help",
+        "src":"documentation.md",
+        "date":"2017-08-10T07:00",
+        "description":"Documentation for using the Exaltation blog generator."
     },
     {
-        "title":"Help Resources",
-        "src":"resources.md",
+        "title":"Exaltation Credits",
+        "src":"credits.md",
         "date":"2017-08-11T20:00",
-        "description":"Helpful resource for learning how to run and customize Exaltation."
+        "description":"Some of the technology used to make Exaltation."
+    },
+    {
+        "title":"Blog Creation Resources",
+        "src":"resources.md",
+        "date":"2017-08-12T20:00",
+        "description":"Helpful resource for learning how to customize Exaltation and create web sites in general."
+    },
+    {
+        "title":"Exaltation FAQ",
+        "src":"faq.md",
+        "date":"2017-08-13T20:00",
+        "description":"Frquently Asked Questions about the Exaltation static blog generator."
     },
     {
         "title":"Draft Example",
         "src":"draft.md",
-        "date":"2017-08-12T20:00",
+        "date":"2017-08-14T20:00",
         "description":"As I put pen to hand ... arggghhhh!",
         "draft": true
     }

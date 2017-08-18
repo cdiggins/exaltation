@@ -37,6 +37,7 @@ module.exports =
   tumblrShareUrl :   "http://www.tumblr.com/share?v=3&t={{title}}&u={{pageUrl}}",
   hackerShareUrl :   "http://news.ycombinator.com/submitlink?u={{pageUrl}}&t={{title}}",
 
+  // Social links: update otherwise they go to Christopher Diggins's site
   social : 
   [
     { title: "email", icon: "fa-envelope", url: 'mailto:{{email}}' },
@@ -48,7 +49,8 @@ module.exports =
     { title: "YouTube", icon: "fa-youtube", url: "https://www.youtube.com/user/cdiggins" },
     { title: "RSS", icon: "fa-rss", url: '{{siteUrl}}/rss.xml' },
   ],
-
+ 
+  // Custom settings for the index page
   index : 
   { 
     title       : 'The Exaltation Blog Generator',      
@@ -56,11 +58,35 @@ module.exports =
     pageUrl:      '{{siteUrl}}' 
   },
 
+  // Custom settings for the blog entry page. 
   blog : { 
     title :       'The Exaltation Blog', 
     description : 'A list of articles on the exaltation blog.',
     pageUrl:      '{{siteUrl}}/blog.html' 
   },
+  
+  // The URL where custom fonts can be downloaded. 
+  // Visit: https://fonts.google.com
+  fontUrl : 'https://fonts.googleapis.com/css?family=Lora|Lato',
+  
+  // Custom CSS injected into every page.
+  style : 
+`   body { 
+      font-family: 'Lato', sans-serif;
+    }
+    h1, h2, h3, h4, h5, h6 { 
+      font-family: 'Lora', serif;
+    } 
+    .jumbotron {
+      padding-top: 1em;
+      padding-bottom: 1em;
+      margin-bottom: auto;
+      box-shadow: -5px 9px 10px cadetblue;
+    }
+    .jumbotron > h1 {
+        text-shadow: -2px 1px 3px cadetblue;
+    }
+   `,
 
   // This the contents of the HTML head tag
   header : `
@@ -69,8 +95,7 @@ module.exports =
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   
   <!-- 
-    "The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags"
-    Or at least so decrees Bootstrap. I'm not sure why. 
+    Bootstrap says: "The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags"
   -->
 
   <!-- Standard meta tags -->
@@ -97,12 +122,11 @@ module.exports =
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 
   <!-- Google Fonts https://fonts.google.com/ --> 
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro">
+  <link rel="stylesheet" href="{{{fontUrl}}}">
 
-  <!-- My custom styling, non-trivial styling should be done in its own CSS file --> 
+  <!-- Custom styling, non-trivial styling should be done in its own CSS file --> 
   <style>
-    body { font-family: 'Source Sans Pro', sans-serif; }
-    h1, h2, h3, h4, h5, h6 { font-family: 'Roboto', sans-serif; } 
+    {{{style}}}
   </style>`,
 
   // This is the nav tag and appears at the top of the page/ 
@@ -120,10 +144,10 @@ module.exports =
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-          <li><a href="{{{baseUrl}}}/index.html" title="home">Home</a></li>
-          <li><a href="{{{baseUrl}}}/blog.html" title="blog">Recent</a></li>
-          <li><a href="{{{baseUrl}}}/blog/credits.html" title="blog">Credits</a></li>
-          <li><a href="{{{baseUrl}}}/blog/about.html" title="about">About</a></li>
+          <li><a href="{{{baseUrl}}}/index.html">Home</a></li>
+          <li><a href="{{{baseUrl}}}/blog.html">Articles</a></li>
+          <li><a href="{{{baseUrl}}}/blog/documentation.html">Help</a></li>
+          <li><a href="{{{baseUrl}}}/blog/about.html">About</a></li>
           {{#urlPrev}}
             <li><a href="{{{urlPrev}}}">Previous</a></li>
           {{/urlPrev}}
@@ -184,7 +208,7 @@ module.exports =
     <p class="copyright text-muted small">
       Copyright &copy; {{{year}}} {{{author}}}
       <br/><a href="{{{licenseUrl}}}">{{{license}}}</a>
-      <br/>Built with <b><a href="https://cdiggins.github.io/exaltation">Exaltation</a></b>
+      <br/>Built with <a href="https://cdiggins.github.io/exaltation">Exaltation</a>
     </p>
   </div>
 

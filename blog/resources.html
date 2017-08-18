@@ -7,24 +7,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   
   <!-- 
-    "The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags"
-    Or at least so decrees Bootstrap. I'm not sure why. 
+    Bootstrap says: "The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags"
   -->
 
   <!-- Standard meta tags -->
-  <meta name="description"          content="Helpful resource for learning how to run and customize Exaltation." />
+  <meta name="description"          content="Helpful resource for learning how to customize Exaltation and create web sites in general." />
   <meta name="author"               content="Christopher Diggins" />
   <meta name="generator"            content="Exaltation" />
   
   <!-- Open Graph meta-properties, used by FaceBook and other social sites --> 
   <meta property="og:type"          content="website" />
   <meta property="og:url"           content="https://cdiggins.github.io/exaltation/blog/resources.html" />
-  <meta property="og:title"         content="Help Resources" />
-  <meta property="og:description"   content="Helpful resource for learning how to run and customize Exaltation." />
+  <meta property="og:title"         content="Blog Creation Resources" />
+  <meta property="og:description"   content="Helpful resource for learning how to customize Exaltation and create web sites in general." />
   <meta property="og:image"         content="" />
 
   <!-- The site title -->
-  <title>Help Resources</title>
+  <title>Blog Creation Resources</title>
 
   <!-- Bootstrap http://getbootstrap.com/getting-started/ -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
@@ -35,12 +34,26 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 
   <!-- Google Fonts https://fonts.google.com/ --> 
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora|Lato">
 
-  <!-- My custom styling, non-trivial styling should be done in its own CSS file --> 
+  <!-- Custom styling, non-trivial styling should be done in its own CSS file --> 
   <style>
-    body { font-family: 'Source Sans Pro', sans-serif; }
-    h1, h2, h3, h4, h5, h6 { font-family: 'Roboto', sans-serif; } 
+       body { 
+      font-family: 'Lato', sans-serif;
+    }
+    h1, h2, h3, h4, h5, h6 { 
+      font-family: 'Lora', serif;
+    } 
+    .jumbotron {
+      padding-top: 1em;
+      padding-bottom: 1em;
+      margin-bottom: auto;
+      box-shadow: -5px 9px 10px cadetblue;
+    }
+    .jumbotron > h1 {
+        text-shadow: -2px 1px 3px cadetblue;
+    }
+   
   </style>
   </head>
 
@@ -59,12 +72,13 @@
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-          <li><a href="../index.html" title="home">Home</a></li>
-          <li><a href="../blog.html" title="blog">Recent</a></li>
-          <li><a href="../blog/credits.html" title="blog">Credits</a></li>
-          <li><a href="../blog/about.html" title="about">About</a></li>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../blog.html">Articles</a></li>
+          <li><a href="../blog/documentation.html">Help</a></li>
+          <li><a href="../blog/about.html">About</a></li>
                       <li><a href="credits.html">Previous</a></li>
           
+                      <li><a href="faq.html">Next</a></li>
           
         </ul>
       </div>
@@ -73,20 +87,18 @@
 
     <div class="container theme-showcase" role="main">
         <p>
-          <h4>Friday, August 11, 2017</h4>
+          <h4>Saturday, August 12, 2017</h4>
         </p>
     
         <div class="theme-showcase col-sm-8" id='content'>
           <p>
-            <h1>Creating a Website for Programmers</h1>
+            <h1>Resources for Developers Creating an Exaltation Blog</h1>
 
 <blockquote>>>  Damn it Jim, I'm a software developer not a graphic designer!</blockquote>
 
 <p>Creating a captivating blog is  more than just writing great content, it is also organizing and presenting that content in a way that is accessible and pleasant. </p>
 
 <p>I have been blogging for years, and I find the most efficient way to author and edit articles is using <a href = "https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">MarkDown</a>. This is far better than HTML or so-called WYSIWYG editors which seem to invariably mess up your formatting. </p>
-
-<p>Content management is more effectively done offline, so that you can validate it, version it, and upload it to be served to the users as fast as possible. This is why I prefer static blog generators. </p>
 
 <h3>Key Resources for Using Exaltation</h3>
 
@@ -148,8 +160,10 @@
       </p>
     <h3>Recent Posts</h3>
        <ul>
-   <li><a href="">Help Resources</a></li>
-   <li><a href="">Credits</a></li>
+   <li><a href="">Exaltation FAQ</a></li>
+   <li><a href="">Blog Creation Resources</a></li>
+   <li><a href="">Exaltation Credits</a></li>
+   <li><a href="">Help</a></li>
    <li><a href="">About</a></li>
 
       </ul>
@@ -158,11 +172,11 @@
       <ul class="fa-ul">
         <li><i class="fa fa-facebook    fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;<a href="https://www.facebook.com/sharer/sharer.php?u=https://cdiggins.github.io/exaltation/blog/resources.html">Facebook</a></li>
         <li><i class="fa fa-twitter     fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;<a href="https://twitter.com/intent/tweet?url=https://cdiggins.github.io/exaltation/blog/resources.html">Twitter</a></li>
-        <li><i class="fa fa-reddit      fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;<a href="https://www.reddit.com/r/test/submit?title=Help Resources&url=https://cdiggins.github.io/exaltation/blog/resources.html">Reddit</a></li>
+        <li><i class="fa fa-reddit      fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;<a href="https://www.reddit.com/r/test/submit?title=Blog Creation Resources&url=https://cdiggins.github.io/exaltation/blog/resources.html">Reddit</a></li>
         <li><i class="fa fa-google-plus fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;<a href="">Google+</a></li>
-        <li><i class="fa fa-linkedin    fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;<a href="http://www.linkedin.com/shareArticle?mini=true&url=https://cdiggins.github.io/exaltation/blog/resources.html&title=Help Resources">LinkedIn</a></li>
+        <li><i class="fa fa-linkedin    fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;<a href="http://www.linkedin.com/shareArticle?mini=true&url=https://cdiggins.github.io/exaltation/blog/resources.html&title=Blog Creation Resources">LinkedIn</a></li>
         <li><i class="fa fa-hacker-news fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;<a href="">Hacker News</a></li>
-        <li><i class="fa fa-tumblr      fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;<a href="http://www.tumblr.com/share?v=3&t=Help Resources&u=https://cdiggins.github.io/exaltation/blog/resources.html">Tumblr</a></li>
+        <li><i class="fa fa-tumblr      fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;<a href="http://www.tumblr.com/share?v=3&t=Blog Creation Resources&u=https://cdiggins.github.io/exaltation/blog/resources.html">Tumblr</a></li>
       </ul>
     </p>
   </div>
@@ -230,7 +244,7 @@
     <p class="copyright text-muted small">
       Copyright &copy; 2017 Christopher Diggins
       <br/><a href="https://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</a>
-      <br/>Built with <b><a href="https://cdiggins.github.io/exaltation">Exaltation</a></b>
+      <br/>Built with <a href="https://cdiggins.github.io/exaltation">Exaltation</a>
     </p>
   </div>
 

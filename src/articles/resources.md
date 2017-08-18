@@ -1,12 +1,10 @@
-# Creating a Website for Programmers
+# Resources for Developers Creating an Exaltation Blog
 
 >>>  Damn it Jim, I'm a software developer not a graphic designer!
 
 Creating a captivating blog is  more than just writing great content, it is also organizing and presenting that content in a way that is accessible and pleasant. 
 
 I have been blogging for years, and I find the most efficient way to author and edit articles is using [MarkDown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). This is far better than HTML or so-called WYSIWYG editors which seem to invariably mess up your formatting. 
-
-Content management is more effectively done offline, so that you can validate it, version it, and upload it to be served to the users as fast as possible. This is why I prefer static blog generators. 
 
 ### Key Resources for Using Exaltation
 

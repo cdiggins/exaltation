@@ -1,21 +1,22 @@
-# Acknowledgements 
+## Technology Used
 
-* [Visual Studio Code](https://code.visualstudio.com/)
+The Exaltation blog generator would not be possible without the following free and open-source tools, technology and services:
+
 * [Bootstrap](https://getbootstrap.com)
+* [Creative Commons](creativecommons.org)
 * [Font awesome](http://fontawesome.io/)
-* [Google fonts](https://fonts.google.com)
-* [jQuery](https://jquery.com/)
 * [GitHub](https://github.com)
 * [GitHub Pages](https://pages.github.com/)
-* [MaxCDN](https://www.maxcdn.com/)
+* [Google fonts](https://fonts.google.com)
 * [JavaScript / ECMAScript](https://www.ecma-international.org/publications/standards/Ecma-262.htm)
-* [TypeScript](https://www.typescriptlang.org/)
+* [jQuery](https://jquery.com/)
+* [MaxCDN](https://www.maxcdn.com/)
 * [Node.JS](https://nodejs.org)
 * [npm](https://www.npmjs.com/)
-* [Travis CI](https://travis-ci.org/)
-* [QUnit](https://qunitjs.com/)
 * [Mocha](https://mochajs.org/)
 * [Myna](https://github.com/cdiggins/myna-parser)
-* [Creative Commons](creativecommons.org)
-
+* [QUnit](https://qunitjs.com/)
+* [Travis CI](https://travis-ci.org/)
+* [TypeScript](https://www.typescriptlang.org/)
+* [Visual Studio Code](https://code.visualstudio.com/)
 
