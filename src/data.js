@@ -61,11 +61,19 @@ module.exports =
 
   // Custom settings for the blog entry page. 
   blog : { 
-    title :       'The Exaltation Blog', 
+    title :       'The Exaltation Blog',
     description : 'A list of articles on the Exaltation blog.',
-    pageUrl:      '{{siteUrl}}/blog.html' 
+    pageUrl:      '{{siteUrl}}/blog.html'
   },
   
+  // Custom settings for the RSS page
+  rss : 
+  { 
+    title       : 'The Exaltation Blog Generator',
+    description : 'A blog about a blog generator.',
+    pageUrl:      '{{siteUrl}}/rss.xml' 
+  },
+
   // The URL where custom fonts can be downloaded. 
   // Visit: https://fonts.google.com
   fontUrl : 'https://fonts.googleapis.com/css?family=Lora|Lato',

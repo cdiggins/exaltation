@@ -1,15 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+{{#rss}}<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
- <title>Another Software Development Blog by Christopher Diggins</title>
- <description>Thoughts and anecdotes on software development and programming language design.</description>
+ <title>{{title}}</title>
+ <description>{{description}}</description>
  <link>{{siteUrl}}</link>
  <lastBuildDate>{{built}}</lastBuildDate>
- <pubDate>Sun, 23 July 2017 11:50 EST</pubDate>
- <webMaster>cdiggins@gmail.com</webMaster>
- <managingEditor>cdiggins@gmail.com</managingEditor>
- <copyright>Copyright 2017, Christopher Diggins, CC BY-SA 4.0</copyright>
- <generator>Myna Blog Generator</generator>
+ <webMaster>{{author}}</webMaster>
+ <managingEditor>{{author}}</managingEditor>
+ <copyright>Copyright 2017, {{author}}</copyright>
+ <generator>Exaltation</generator>
  <language>en-us</language>
  
  {{#articles}}
@@ -17,11 +16,11 @@
   <title>{{title}}</title>
   <description>{{description}}</description>
   <category>{{category}}</category>
-  <link>http://cdiggins.github.io/blog/{{pageUrl}}</link>
+  <link>{{pageUrl}}</link>
   <source>http://cdiggins.github.io/rss.xml</source>
   <pubDate>{{rssDate}}</pubDate>
  </item>
  {{/articles}}
 
 </channel>
-</rss>
+</rss>{{/rss}}

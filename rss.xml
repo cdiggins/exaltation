@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
- <title>Another Software Development Blog by Christopher Diggins</title>
- <description>Thoughts and anecdotes on software development and programming language design.</description>
+ <title>The Exaltation Blog Generator</title>
+ <description>A blog about a blog generator.</description>
  <link>https://cdiggins.github.io/exaltation</link>
- <lastBuildDate>Sat, 19 Aug 2017 14:41:12 GMT-0400 (Eastern Daylight Time)</lastBuildDate>
- <pubDate>Sun, 23 July 2017 11:50 EST</pubDate>
- <webMaster>cdiggins@gmail.com</webMaster>
- <managingEditor>cdiggins@gmail.com</managingEditor>
- <copyright>Copyright 2017, Christopher Diggins, CC BY-SA 4.0</copyright>
- <generator>Myna Blog Generator</generator>
+ <lastBuildDate>Sat, 19 Aug 2017 16:10:55 GMT-0400 (Eastern Daylight Time)</lastBuildDate>
+ <webMaster>Christopher Diggins</webMaster>
+ <managingEditor>Christopher Diggins</managingEditor>
+ <copyright>Copyright 2017, Christopher Diggins</copyright>
+ <generator>Exaltation</generator>
  <language>en-us</language>
  
  
@@ -17,7 +16,7 @@
   <title>Exaltation FAQ</title>
   <description>Frquently Asked Questions about the Exaltation static blog generator.</description>
   <category></category>
-  <link>http://cdiggins.github.io/blog/https://cdiggins.github.io/exaltation/blog/faq.html</link>
+  <link>https://cdiggins.github.io/exaltation/blog/faq.html</link>
   <source>http://cdiggins.github.io/rss.xml</source>
   <pubDate>Sun, 13 Aug 2017 16:00:00 GMT-0400 (Eastern Daylight Time)</pubDate>
  </item>
@@ -26,7 +25,7 @@
   <title>Blog Creation Resources</title>
   <description>Helpful resource for learning how to customize Exaltation and create web sites in general.</description>
   <category></category>
-  <link>http://cdiggins.github.io/blog/https://cdiggins.github.io/exaltation/blog/resources.html</link>
+  <link>https://cdiggins.github.io/exaltation/blog/resources.html</link>
   <source>http://cdiggins.github.io/rss.xml</source>
   <pubDate>Sat, 12 Aug 2017 16:00:00 GMT-0400 (Eastern Daylight Time)</pubDate>
  </item>
@@ -35,7 +34,7 @@
   <title>Exaltation Credits</title>
   <description>Some of the technology used to make Exaltation.</description>
   <category></category>
-  <link>http://cdiggins.github.io/blog/https://cdiggins.github.io/exaltation/blog/credits.html</link>
+  <link>https://cdiggins.github.io/exaltation/blog/credits.html</link>
   <source>http://cdiggins.github.io/rss.xml</source>
   <pubDate>Fri, 11 Aug 2017 16:00:00 GMT-0400 (Eastern Daylight Time)</pubDate>
  </item>
@@ -44,7 +43,7 @@
   <title>Help</title>
   <description>Documentation for using the Exaltation blog generator.</description>
   <category></category>
-  <link>http://cdiggins.github.io/blog/https://cdiggins.github.io/exaltation/blog/documentation.html</link>
+  <link>https://cdiggins.github.io/exaltation/blog/documentation.html</link>
   <source>http://cdiggins.github.io/rss.xml</source>
   <pubDate>Thu, 10 Aug 2017 03:00:00 GMT-0400 (Eastern Daylight Time)</pubDate>
  </item>
@@ -53,7 +52,7 @@
   <title>About</title>
   <description>About the Exaltation blog generator.</description>
   <category></category>
-  <link>http://cdiggins.github.io/blog/https://cdiggins.github.io/exaltation/blog/about.html</link>
+  <link>https://cdiggins.github.io/exaltation/blog/about.html</link>
   <source>http://cdiggins.github.io/rss.xml</source>
   <pubDate>Wed, 9 Aug 2017 03:00:00 GMT-0400 (Eastern Daylight Time)</pubDate>
  </item>
