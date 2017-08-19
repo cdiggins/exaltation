@@ -90,9 +90,6 @@ function main()
     // Sort articles by date    
     data.articles.sort(function (a,b) { return b.date - a.date; });
 
-    // This will reference the first five articles (after sorted)
-    data.recentArticles = data.articles.slice(0, 5);
-    
     // Generate the previous and next links. We only do this for published articles
     for (let i=0; i < data.articles.length; ++i) {
         var a = data.articles[i];
@@ -100,6 +97,9 @@ function main()
         a.next = data.articles[i-1];
     }
 
+    // This will reference the first five articles (after sorted)
+    data.recentArticles = data.articles.slice(0, 5);
+    
     // Create each article (drafts go into a special folder)
     for (var a of allArticles) 
     {
@@ -133,10 +133,14 @@ function main()
         a.srcFile = data.markdownFolder + '/' + a.src;
 
         // Get the markdown for the article
-        var markDown = fs.readFileSync(a.srcFile, 'utf-8');
+        a.markDown = fs.readFileSync(a.srcFile, 'utf-8');
+    }
 
+    // Generate the markdown 
+    for (var a of allArticles) 
+    {
         // Convert the markdown to HTML 
-        a.content = mdToHtml(markDown);
+        a.content = mdToHtml(a.markDown);
 
         // Expand the template to get the HTML
         var html = expand(template, a);
