@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+  <!-- 
+    Bootstrap says: "The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags"
+  -->
+
+  <!-- Standard meta tags -->
+  <meta name="description"          content="Frquently Asked Questions about the Exaltation static blog generator." />
+  <meta name="author"               content="Christopher Diggins" />
+  <meta name="generator"            content="Exaltation" />
+  
+  <!-- Open Graph meta-properties, used by FaceBook and other social sites --> 
+  <meta property="og:type"          content="website" />
+  <meta property="og:url"           content="https://cdiggins.github.io/exaltation/blog/faq.html" />
+  <meta property="og:title"         content="Exaltation FAQ" />
+  <meta property="og:description"   content="Frquently Asked Questions about the Exaltation static blog generator." />
+  <meta property="og:image"         content="" />
+
+  <!-- The site title -->
+  <title>Exaltation FAQ</title>
+
+  <!-- Bootstrap http://getbootstrap.com/getting-started/ -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../css/theme.css" />
+
+  <!-- Font Awesome http://fontawesome.io/ --> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <!-- Google Fonts https://fonts.google.com/ --> 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora|Lato">
+
+  <!-- Custom styling, non-trivial styling should be done in its own CSS file --> 
+  <style>
+       body { 
+      font-family: 'Lato', sans-serif;
+    }
+    h1, h2, h3, h4, h5, h6 { 
+      font-family: 'Lora', serif;
+    } 
+    .jumbotron {
+      padding-top: 1em;
+      padding-bottom: 1em;
+      margin-bottom: auto;
+      box-shadow: -5px 9px 10px cadetblue;
+    }
+    .jumbotron > h1 {
+        text-shadow: -2px 1px 3px cadetblue;
+    }
+   
+  </style>
+  </head>
+
+  <body>
+    
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#" title="top">Exaltation</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../blog.html">Articles</a></li>
+          <li><a href="../blog/documentation.html">Help</a></li>
+          <li><a href="../blog/about.html">About</a></li>
+                      <li><a href="resources.html">Previous</a></li>
+          
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <div class="container theme-showcase" role="main">
+        <p>
+          <h4>Sunday, August 13, 2017</h4>
+        </p>
+    
+        <div class="theme-showcase col-sm-8" id='content'>
+          <p>
+            <h1>Frequently Asked Questions</h1>
+
+<h2>Why another Static Site Generator? </h2>
+
+<p>There are already a large number of <a href = "https://www.staticgen.com/">static site generators</a> that are available for you to play with on Github. Exaltation was designed to address a very specific set of needs: Github users wanting a fast and easy to use and customize blog.</p>
+
+<h2>Why Generate Web Pages Statically and not Dynamically?</h2>
+
+<p>When pages are generated offline, you can more easily validate them, version them, and then serve them to users as fast as possible. It is also more compatible with caching and distributed content delivery systems.</p>
+
+<h2>Can I Create Web sites other than Blogs? </h2>
+
+<p>Yes, but the build.js script might not offer the kind of customization you want. Feel free to look into extending Exaltation and making suggested changes. </p>
+
+<h2>Can I host my Blog somewhere other the GitHub pages</h2>
+
+<p>Definitely! The HTML pages generated can be hosted anywhere you want. </p>
+
+<h2>What language is Exaltation written in?</h2>
+
+<p>JavaScript.</p>
+
+<h2>Can I author articles in something other than Markdown? </h2>
+
+<p>No. It takes about 5 minutes to learn all of the Markdown you ever need. Supporting other markup languages would just add to the complexity of supporting and testing Exaltation. </p>
+
+<h2>What if I really really want to author articles in something than Markdown?</h2>
+
+<p>In that case it really shouldn't be that hard to find a Node.JS module that converts from your favorite formt into HTML and to integrate it into the Build.js script. At that point creating your own fork of Exaltation would probably be the right place to go, but I'm open for discussion. </p>
+
+<h2>Does Exaltation Support different Templates Systems? </h2>
+
+<p>No. Mustache uses a variation of mustache templates that supports recursive expansion. </p>
+
+<h2>How do Exaltation Templates differ from Mustache </h2>
+
+<p>Exaltation templates have the following differences from <a href = "https://mustache.github.io/mustache.5.html">Mustache templates</a>:</p>
+
+<ul><li>Exaltation does not support partials</li>
+<li>Exaltation does not support set delimiters </li>
+<li>Exaltation uses automatic recursive template expansion. When a template variable is expanded, any template variables contained within the results are also expanded. It is therefore possible to create an infinite loop with Exaltation, without having to resort to partials. </li>
+</ul>
+
+<h2>Are there any plug-ins for Exaltation? </h2>
+
+<p>No. For now I believe that a plug-ins would just add a lot of complexity for relatively little gain. I'd consider first trying to add features to the core build script, or forking Exaltation to support other types of workflows. Again feel free to discuss it on the issues page.</p>
+
+          </p>
+        </div>
+
+        
+  <div class="col-sm-4 sidebar-module sidebar-module-inset">
+      <p>
+        This blog was generated using the <a href="http://cdiggins.github.io/exaltaion">Exaltation</a> blog maker 
+        by <a href="http://cdiggins.github.io">Christopher Diggins</a>. 
+      </p>
+    <h3>Recent Posts</h3>
+       <ul>
+   <li><a href="">Exaltation FAQ</a></li>
+   <li><a href="">Blog Creation Resources</a></li>
+   <li><a href="">Exaltation Credits</a></li>
+   <li><a href="">Help</a></li>
+   <li><a href="">About</a></li>
+
+      </ul>
+    <h3>Share</h3> 
+    <p>
+      <ul class="fa-ul">
+        <li><i class="fa fa-facebook    fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;<a href="https://www.facebook.com/sharer/sharer.php?u=https://cdiggins.github.io/exaltation/blog/faq.html">Facebook</a></li>
+        <li><i class="fa fa-twitter     fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;<a href="https://twitter.com/intent/tweet?url=https://cdiggins.github.io/exaltation/blog/faq.html">Twitter</a></li>
+        <li><i class="fa fa-reddit      fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;<a href="https://www.reddit.com/r/test/submit?title=Exaltation FAQ&url=https://cdiggins.github.io/exaltation/blog/faq.html">Reddit</a></li>
+        <li><i class="fa fa-google-plus fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;<a href="">Google+</a></li>
+        <li><i class="fa fa-linkedin    fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;<a href="http://www.linkedin.com/shareArticle?mini=true&url=https://cdiggins.github.io/exaltation/blog/faq.html&title=Exaltation FAQ">LinkedIn</a></li>
+        <li><i class="fa fa-hacker-news fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;<a href="">Hacker News</a></li>
+        <li><i class="fa fa-tumblr      fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;<a href="http://www.tumblr.com/share?v=3&t=Exaltation FAQ&u=https://cdiggins.github.io/exaltation/blog/faq.html">Tumblr</a></li>
+      </ul>
+    </p>
+  </div>
+    </div>
+    
+		    
+<hr>
+<footer style='text-align:center'>
+  <div class="container">
+
+    <!-- Social media sharing icons -->
+    <div class="row">
+              <a href="mailto:cdiggins@gmail.com" class="btn-link" style="text-decoration: none" title="email">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+            <i class="fa fa-envelope fa-stack-1x fa-inverse" aria-hidden="true"></i>
+          </span>
+        </a>
+              <a href="https://twitter.com/cdiggins" class="btn-link" style="text-decoration: none" title="Twitter">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+            <i class="fa fa-twitter fa-stack-1x fa-inverse" aria-hidden="true"></i>
+          </span>
+        </a>
+              <a href="https://www.linkedin.com/in/cdiggins/" class="btn-link" style="text-decoration: none" title="LinkedIn">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+            <i class="fa fa-linkedin fa-stack-1x fa-inverse" aria-hidden="true"></i>
+          </span>
+        </a>
+              <a href="https://www.facebook.com/diggins.software" class="btn-link" style="text-decoration: none" title="FaceBook">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+            <i class="fa fa-facebook fa-stack-1x fa-inverse" aria-hidden="true"></i>
+          </span>
+        </a>
+              <a href="https://github.com/cdiggins" class="btn-link" style="text-decoration: none" title="GitHub">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+            <i class="fa fa-github fa-stack-1x fa-inverse" aria-hidden="true"></i>
+          </span>
+        </a>
+              <a href="https://stackoverflow.com/users/184528/cdiggins" class="btn-link" style="text-decoration: none" title="StackOverflow">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+            <i class="fa fa-stack-overflow fa-stack-1x fa-inverse" aria-hidden="true"></i>
+          </span>
+        </a>
+              <a href="https://www.youtube.com/user/cdiggins" class="btn-link" style="text-decoration: none" title="YouTube">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+            <i class="fa fa-youtube fa-stack-1x fa-inverse" aria-hidden="true"></i>
+          </span>
+        </a>
+              <a href="https://cdiggins.github.io/exaltation/rss.xml" class="btn-link" style="text-decoration: none" title="RSS">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+            <i class="fa fa-rss fa-stack-1x fa-inverse" aria-hidden="true"></i>
+          </span>
+        </a>
+      
+    </div>
+  
+    <!-- Copyright and Licene notice -->
+    <p class="copyright text-muted small">
+      Copyright &copy; 2017 Christopher Diggins
+      <br/><a href="https://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</a>
+      <br/>Built with <a href="https://cdiggins.github.io/exaltation">Exaltation</a>
+    </p>
+  </div>
+
+</footer>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  <!-- Bootstrap scripts --> 
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script async="" src="https://www.google-analytics.com/analytics.js"></script>
+  <!-- Google analytics -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-93495883-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+  
+  </body>
+</html> 
+
