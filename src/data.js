@@ -141,14 +141,16 @@ module.exports =
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#" title="top">{{brand}}</a>
+        <a class="navbar-brand" href="{{{siteUrl}}}" title="top">{{brand}}</a>
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
+          <li><a href="#">Top</a></li>
           <li><a href="{{{baseUrl}}}/index.html">Home</a></li>
           <li><a href="{{{baseUrl}}}/blog.html">Articles</a></li>
           <li><a href="{{{baseUrl}}}/blog/documentation.html">Help</a></li>
           <li><a href="{{{baseUrl}}}/blog/about.html">About</a></li>
+          <li><a href="https://github.com/cdiggins/exaltation">GitHub</a></li>
           {{#urlPrev}}
             <li><a href="{{{urlPrev}}}">Previous</a></li>
           {{/urlPrev}}
