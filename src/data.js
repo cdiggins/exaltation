@@ -33,10 +33,10 @@ module.exports =
   twitterShareUrl :  "https://twitter.com/intent/tweet?url={{pageUrl}}",
   googleShareUrl :   "https://plus.google.com/share?url={{pageUrl}}",
   facebookShareUrl : "https://www.facebook.com/sharer/sharer.php?u={{pageUrl}}",
-  linkedInShareUrl : "http://www.linkedin.com/shareArticle?mini=true&url={{pageUrl}}&title={{title}}",
+  linkedInShareUrl : "https://www.linkedin.com/shareArticle?mini=true&url={{pageUrl}}&title={{title}}",
   redditShareUrl :   "https://www.reddit.com/r/test/submit?title={{title}}&url={{pageUrl}}",
-  tumblrShareUrl :   "http://www.tumblr.com/share?v=3&t={{title}}&u={{pageUrl}}",
-  hackerShareUrl :   "http://news.ycombinator.com/submitlink?u={{pageUrl}}&t={{title}}",
+  tumblrShareUrl :   "https://www.tumblr.com/share?v=3&t={{title}}&u={{pageUrl}}",
+  hackerShareUrl :   "https://news.ycombinator.com/submitlink?u={{pageUrl}}&t={{title}}",
 
   // Social links: update otherwise they go to Christopher Diggins's site
   social : 
@@ -45,7 +45,7 @@ module.exports =
     { title: "Twitter", icon: "fa-twitter", url: 'https://twitter.com/cdiggins' },
     { title: "LinkedIn", icon: "fa-linkedin", url: 'https://www.linkedin.com/in/cdiggins/' },
     { title: "FaceBook", icon: "fa-facebook", url: 'https://www.facebook.com/diggins.software' },
-    { title: "GitHub", icon: "fa-github", url: 'https://github.com/cdiggins' },
+    { title: "GitHub", icon: "fa-github", url: 'https://github.com/cdiggins/exaltation' },
     { title: "StackOverflow", icon: "fa-stack-overflow", url: 'https://stackoverflow.com/users/184528/cdiggins' },
     { title: "YouTube", icon: "fa-youtube", url: "https://www.youtube.com/user/cdiggins" },
     { title: "RSS", icon: "fa-rss", url: '{{siteUrl}}/rss.xml' },
@@ -174,7 +174,7 @@ module.exports =
   sidebar : `
   <div class="col-sm-4 sidebar-module sidebar-module-inset">
       <p>
-        This blog was generated using the <a href="http://cdiggins.github.io/exaltaion">Exaltation</a> blog maker 
+        This blog was generated using the <a href="https://github.com/cdiggins/exaltation">Exaltation</a> blog maker 
         by <a href="http://cdiggins.github.io">Christopher Diggins</a>. 
       </p>
     <h3>Recent Posts</h3>
